@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bootstarp website</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="main.css">
+		<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+	</head>
+	<body data-spy="scroll" data-target="#moj-navbar">
+		<!--navbar-->
+		<nav class="navbar navbar-inverse navbar-fixed-top" id="moj-navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand navbar-left" href="#">Pocetna</a>
+					</div><!--navbar header-->
+					<div class="collapse navbar-collapse" id="navbar-collapse">
+						<a href="" class="btn btn-info navbar-btn navbar-right" id="timer"></a>
+						<ul class="nav navbar-nav">
+							
+							<li><a href="#Ponuda" id="dugme1">Ponuda</a>
+							<li><a href="#Galerija">Galerija</a>
+							<li><a href="#Mapa">Mapa</a>
+							
+						</ul>
+					</div>
+					</div> <!--kraj kontejnera-->
+					</nav> <!--kraj navbara-->
+					<!--jumbotron-->
+					<div class="jumbotron">
+						
+							
+							</div><!--kraj kontejnera-->
+							</div><!--kraj jumbotrona-->
+
+							<section>			
+							<div class="container">
+								<section>
+									<div class="page-header" id="Ponuda">
+										<h2>Ponuda <small>vidi</small></h2>
+										
+									</div>
+									<div class="row">
+										
+										<div class="col-md-3">
+											<blockquote>
+												<h3>Kopaonik</h3>
+												<img src="images/008.jpg" class="img-circle" alt="Cinque Terre" width="240" height="236">
+												<a href="http://www.bigblue.rs/KOPAONIK-Hoteli/GRAND_HOTEL___SPA/1001/OpisHotela.aspx" target="blanko"><footer id="demo1"> Gand hotel & spa 4*</footer> </a>
+												<hr> <button id="btn2" class="btn btn-small btn-info" >Klikni za cenu</button>
+												
+											</blockquote>
+										</div>
+										<div class="col-md-3">
+											<blockquote>
+												<h3>Zlatibor</h3>
+												<img src="images/zlatibor.jpg" class="img-circle" alt="Cinque Terre" width="240" height="236">
+												<a href="http://www.bigblue.rs/ZLATIBOR-Hoteli/PALISAD_HOTEL/1452/OpisHotela.aspx" target="blanko"><footer id="demo2">Palisad hotel  4* </footer></a>
+												<hr> <button class="btn btn-small btn-info"  >Klikni za cenu</button>
+												
+											</blockquote>
+										</div>
+										
+										<div class="col-md-3">
+											<blockquote>
+												<h3>Tara</h3>
+												<img src="images/tara-8v.jpg" class="img-circle" alt="Cinque Terre" width="240" height="236">
+												<a href="http://www.kontiki.rs/sr/hotel/srbija/tara/omorika-hotel?PL=12531-4-21338-2599825" target="blanko">
+												<footer id="demo3">Hotel Omorika</footer></a>
+												<hr> <button class="btn btn-small btn-info">Klikni za cenu</button>
+												
+												
+												
+											</blockquote>
+											</div>
+
+											<div class="col-md-3">
+											<blockquote>
+												<h3>Ivanjica</h3>
+												<img src="images/Zvuci-Golije-Javora-i-Mucnja.jpg" class="img-circle" alt="Cinque Terre" width="240" height="236">
+												<a href="https://www.tripadvisor.rs/Hotel_Review-g1647553-d2442464-Reviews-Hotel_Park-Ivanjica_Central_Serbia.html" target="blank"><footer id="demo"> Hotel Park</footer></a> <hr> <button class="btn btn-small btn-info" id="btn1">Klikni za cenu</button>
+											</blockquote>
+										
+										</div>
+										</div><!--end row-->
+										
+										</section>
+										
+										</div><!--end container-->
+										<!--coall to action-->
+										<section>
+											<div class="well">
+												<div class="container text-center" >
+													
+													
+													<form action="#" class="form-group" method="POST" id="myForm">
+														<div class="form-group ">
+															<label for="Destinacija">Izaberite destinaciju</label>
+															<input  id="Destinacija" type="text" class="form-control" placeholder="Izaberite destinaciju" autocomplete="on" list="destinacije">
+															<datalist id="destinacije">
+															<option value="Zlatar">
+															<option value="Kopaonik">
+															<option value="Tara">
+															<option value="Zlatibor">
+															<option value="Ivanjica">
+															<option value="Bajina Basta">
+															
+															
+																								
+															</datalist>
+															<hr>
+															
+															
+																										
+													</form><!--end form-->
+													<form action="#">
+														<div class="text-left">
+																<label for="smestaj">Tip smestaja</label><br>
+																<input type="radio" name="smestaj" value="Soba">Soba<br />
+  																<input type="radio" name="smestaj" value="Apartman" checked>Apartman<br />
+  																<input type="radio" name="smestaj" value="Hotel">Hotel<br />
+  																<input type="radio" name="smestaj" value="Hostel">Hostel<br />	
+																											
+															</div>
+													</form>
+													<hr>
+													<form>
+													<div class="text-left">
+														<label for="kategorija">Kategorija</label><br>
+  														<input type="checkbox" name="zan" value="*" 
+    													checked>*<br />
+  														<input type="checkbox" name="zan" value="**">
+    													**<br />
+  														<input type="checkbox" name="zan" value="***">
+    													***<br />
+    													<input type="checkbox" name="zan" value="****">
+    													****<br />
+    													<input type="checkbox" name="zan" value="*****">
+    													*****<br />
+    													</div>
+													</form>
+													<br>
+													<button id="submit" type="submit" form="myForm" value="submit" class="btn btn-info" class="text-left">submit</button>
+
+																										
+												</div><!-- end container-->
+																										
+											</div><!--end well-->
+											</section>
+										
+										<!--gallery-->
+										<div class="container">
+											<section id="galery">
+												<div class="page-header" id="Galerija">
+													<h2>Galerija <small>vidi</small></h2>
+																													
+												</div>
+												<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+													<ol class="carousel-indicators">
+														<li data-target="#screenshot-carousel" data-slide-to="0"></li>
+															<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+															<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+															<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+																														
+																														
+															</ol>
+															<div class="carousel-inner">
+															<div class="item active ">
+																<img src="images/slika1.JPG" class="img-thumbnail center-block" alt="ssdsdsssdsdsdsdsd" id="slike">
+																															
+															</div>
+															<div class="item img-responsive">
+																<img src="images/slika2.jpg" class="img-thumbnail center-block" alt="ssdsdsssdsdsdsdsd" id="slike">
+																															
+															</div>
+															<div class="item img-responsive">
+																<img src="images/slika3.jpg" class="img-thumbnail center-block" alt="ssdsdsssdsdsdsdsd" id="slike">
+																															
+															</div>
+															<div class="item img-responsive">
+																<img src="images/slika4.jpg" class="img-thumbnail center-block" alt="ssdsdsssdsdsdsdsd" id="slike">
+																															
+															</div>
+																														
+												</div><!--end carousel inner-->
+															<a href="#screenshot-carousel" class="left-carousel-control" data-slide="prev">
+																<span class="glyphicon glyphicon-chevron-left"></span>
+															</a>
+															<a href="#screenshot-carousel" class="right-carousel-control" data-slide="next">
+																<span class="glyphicon glyphicon-chevron-right"></span>
+															</a>
+												</div><!--end carousel-->
+											</section>
+																													
+													</div> <hr>
+																											
+																												
+														<div class="container">
+															<section>
+																<div class="page-header" id="Mapa">
+																																	
+																																	
+																</div>
+																	<div class="row">
+																		<div class="col-lg-8">
+																		<h3>Mapa</h3>
+																			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d268796.18108159944!2d19.615732209732123!3d43.68432274549387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47582f8f84661877%3A0x43364460a56d557c!2z0JfQu9Cw0YLQuNCx0L7RgA!5e0!3m2!1ssr!2srs!4v1505664449432" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+																		</div>
+																																	
+																	</div>
+															</section>
+															<hr>
+															<footer>
+																<div class="container text-center" >
+																	<h3>subscribe</h3>
+																		
+																			<form action="" class="form-inline">
+																				<div class="form-group ">
+																					<label for="subscription">subscribe</label>
+																					<input type="text" class="form-control" id="subscription" placeholder="Unesite vase ime">
+																				<div class="form-group ">
+																					<label for="email">email</label>
+																					<input type="text" class="form-control" id="email" placeholder="Unesite email">
+																																				
+																				</div>
+																					<button type="submit" class="btn btn-warning">submit</button>
+																					<hr>
+																						<ul class="list-inline">
+																							<li><a href="https://en-gb.facebook.com/login/">Facebook</a></li>
+																							<li><a href="https://en-gb.facebook.com/login/">Twitter</a></li>
+																							<li><a href="https://en-gb.facebook.com/login/">Youtube</a></li>
+																																				
+																																				
+																																				
+																						</ul>
+																						<p>&copy; Copyright @ 2017</p>
+															</footer>
+														<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+														<!-- Latest compiled and minified JavaScript -->
+														<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+														<script src="main.js" ></script>
+													</body>
+													</html>

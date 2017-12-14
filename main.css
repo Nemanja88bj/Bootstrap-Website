@@ -1,0 +1,46 @@
+.jumbotron {
+background: url(images/kopaonik-4.jpg) center center/cover fixed;
+height: 600px;
+color: black; }
+
+#timer {
+background: gray; }
+
+section {
+background: #BDBDBD;
+width: 100%; }
+
+body {
+background: #BDBDBD;
+}
+
+#p {
+font-family: "VT323", monospace;
+font-size: 23px;
+color: black; }
+#slike {
+width: 900px;
+height: 700px; }
+
+
+}
+#slogan{
+background-color: lightblue;
+border-bottom: 2px solid lightblue;
+letter-spacing: 2px;
+box-shadow: 2px 2px;
+opacity: 0.5;
+}
+
+#glavni{
+background-color: lightblue;
+border-bottom: 2px solid lightblue;
+letter-spacing: 2px;
+box-shadow: 2px 2px;
+opacity: 0.5;
+}
+#submit{
+position: relative;
+float: left;
+}
+
